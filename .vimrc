@@ -11,9 +11,22 @@ set incsearch
 set ignorecase
 set ruler
 set clipboard=unnamed
+set relativenumber
+set rnu
+
 highlight Comment ctermfg=yellow
 
-" For simple todo's
-call plug#begin('~/.vim/plugged')
-Plug 'vitalk/vim-simple-todo'
-call plug#end()
+" Plugins
+set nocompatible
+filetype off
+
+" Vimwiki
+let g:vimwiki_list = [{'syntax': 'markdown'}]
+let g:vimwiki_global_ext = 0
+let g:vimwiki_listsyms = '✗○◐●✓'
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'vimwiki/vimwiki'
+call vundle#end()  
+filetype plugin indent on 
