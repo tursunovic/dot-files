@@ -1,0 +1,59 @@
+window:
+  dimensions:
+    columns: 100
+    lines: 45
+  padding:
+    x: 10
+    y: 10
+  dynamic_padding: false
+  decorations: buttonless
+  startup_mode: Windowed
+font:
+  normal:
+    family: Fira Code
+    style: Medium
+  bold:
+    family: Fira Code
+    style: Bold
+  italic:
+    family: Fira Code
+    style: Italic
+  size: 16
+  offset:
+    x: -1
+    y: 12
+  glyph_offset:
+    x: 0
+    y: 0
+  use_thin_strokes: false
+colors:
+  name: Google (dark)
+  author: Chris Kempson
+  primary:
+    background: "#1d1f21"
+    foreground: "#c5c8c6"
+  cursor:
+    text: "#1d1f21"
+    cursor: "#c5c8c6"
+  normal:
+    black: "#1d1f21"
+    red: "#cc342b"
+    green: "#198844"
+    yellow: "#fba922"
+    blue: "#3971ed"
+    magenta: "#a36ac7"
+    cyan: "#3971ed"
+    white: "#c5c8c6"
+  bright:
+    black: "#969896"
+    red: "#cc342b"
+    green: "#198844"
+    yellow: "#fba922"
+    blue: "#3971ed"
+    magenta: "#a36ac7"
+    cyan: "#3971ed"
+    white: "#ffffff"
+" ": null
+83bf" magenta: "#a04bbd"
+cyan: "#4dbda8"
+white: "#848484"
