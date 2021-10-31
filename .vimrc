@@ -19,11 +19,23 @@ set nobackup
 highlight Comment ctermfg=yellow
 set nocompatible
 filetype off
+let $LANG='en_US.UTF-8'
 
-" FZF
+" colorscheme papercolor
+" colorscheme modus-operandi
+" colorscheme nvim-light
+"
+set guifont=Fira\ Code\ Medium:h16
+
+" Use thin cursor when in insert mode
+let &t_SI = "\<esc>[5 q"
+let &t_SR = "\<esc>[3 q"
+let &t_EI = "\<esc>[ q"
+
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <C-b> :Buffer<CR>
 nnoremap <silent> <C-d> :Rg<CR>
+vnoremap <silent> <C-c> :'<,'> !pbcopy<CR> u
 
 " Buffers
 map <silent> <tab> :bn<CR>
@@ -48,3 +60,4 @@ Plugin 'junegunn/fzf'
 Plugin 'elzr/vim-json'
 call vundle#end()  
 filetype plugin indent on 
+
