@@ -10,6 +10,7 @@ theme = "Apple System Colors"
 theme = "xcodedarkhc"
 theme = "Github Dark"
 cursor-color = yellow
+adjust-cursor-thickness = 50%
 
 # Window
 window-padding-x = 2
